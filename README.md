@@ -78,8 +78,8 @@ Explore more on my [GitHub Profile](https://github.com/rajat-khonde).
 
 I'm always open to new opportunities and collaborations. Feel free to connect with me:
 
-- **LinkedIn:** [Your LinkedIn Profile](https://www.linkedin.com/in/rajat-khonde-450b46119/)
-- **Email:** [your.email@example.com](mailto:rajatkhonde@gmail.com)
+- **LinkedIn:** [Rajat Khonde](https://www.linkedin.com/in/rajat-khonde-450b46119/)
+- **Email:** [rajatkhonde@gmail.com](mailto:rajatkhonde@gmail.com)
 
 ---
 
