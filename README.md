@@ -1,7 +1,7 @@
 <!-- Banner Section with an Animated GIF -->
 <h1 align="center">Hi there, I'm Rajat! 👋</h1>
 <p align="center">
-  <img src="https://media.giphy.com/media/l0ExdMHUDKteztyfe/giphy.gif" alt="Cloud Automation & DevOps" width="600"/>
+  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" alt="Cloud Automation & DevOps" width="600"/>
 </p>
 
 ---
@@ -58,7 +58,7 @@ I design and implement cloud architectures, develop serverless functions, and au
 - **Integration & Security:** Implementing solutions using APIGEE and Entra ID to secure and integrate diverse systems.
 
 <p align="center">
-  <img src="https://media.giphy.com/media/h4OGYOrBDPhLGK6peE/giphy.gif" alt="Automation in Action" width="500"/>
+  <img src="https://media.giphy.com/media/RbDKaczqWovIugyJmW/giphy.gif" alt="Automation in Action" width="500"/>
 </p>
 
 ---
