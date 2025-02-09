@@ -34,6 +34,7 @@ I work with a variety of technologies and tools, including:
 - **Jenkins**
 - **GitLab**
 - **Bitbucket**
+- **Kubernetes**
 - **JFrog**
 - **APIGEE**
 
@@ -52,10 +53,9 @@ I work with a variety of technologies and tools, including:
 
 I design and implement cloud architectures, develop serverless functions, and automate workflows to empower organizations with efficient and secure cloud solutions. Some areas I focus on include:
 
-- **Cloud Infrastructure:** Architecting and managing scalable Azure environments.
 - **Automation:** Utilizing PowerShell and Python to automate repetitive tasks and streamline operations.
-- **CI/CD Pipelines:** Building robust pipelines with tools like Jenkins, GitLab, and Bitbucket.
-- **Integration & Security:** Implementing solutions using APIGEE and Entra ID to secure and integrate diverse systems.
+- **CI/CD Pipelines:** Building robust pipelines with tools like Jenkins, GitLab, Bitbucket and Kubernetes.
+- **Integration & Security:** Implementing solutions using APIGEE to secure and integrate diverse systems also automating scripts for various security bug fixes or new implementations.
 
 <p align="center">
   <img src="https://media.giphy.com/media/RbDKaczqWovIugyJmW/giphy.gif" alt="Automation in Action" width="500"/>
