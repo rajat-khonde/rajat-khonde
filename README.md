@@ -68,7 +68,7 @@ I design and implement cloud architectures, develop serverless functions, and au
 Here’s the recent IT Blog of E2E Automation I have worked on: [BLOG](https://blogit.michelin.io/cloud-to-cloud-automation-with-servicenow/).
 
 
---_
+---
 
 Explore more on my [GitHub Profile](https://github.com/rajat-khonde).
 
