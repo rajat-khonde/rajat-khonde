@@ -23,6 +23,7 @@ I work with a variety of technologies and tools, including:
 ### Programming & Scripting
 - **PowerShell**
 - **Python**
+- **Bash**
 
 ### Serverless & Automation
 - **Azure Functions**
@@ -43,6 +44,7 @@ I work with a variety of technologies and tools, including:
   <img src="https://img.shields.io/badge/-Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" alt="Azure">
   <img src="https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white" alt="PowerShell">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white" alt="Bash">
   <img src="https://img.shields.io/badge/-Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white" alt="Jenkins">
   <img src="https://img.shields.io/badge/-GitLab-E24329?style=for-the-badge&logo=gitlab&logoColor=white" alt="GitLab">
 </p>
