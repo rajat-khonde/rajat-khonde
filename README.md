@@ -92,7 +92,7 @@ I'm always open to new opportunities and collaborations. Feel free to connect wi
 ## GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=rajat-khonde&show_icons=true&theme=great-gatsby" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=rajat-khonde&show_icons=true&theme=dark" alt="GitHub Stats" />
 </p>
 
 ---
@@ -109,4 +109,5 @@ The below is built using [this](./build-svg.ps1) PowerShell script, which runs d
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=80&section=footer&animation=fadeIn"/>
+
 </p>
