@@ -93,7 +93,6 @@ I'm always open to new opportunities and collaborations. Feel free to connect wi
 
 <div align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com?user=rajat-khonde&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D" width="450" />
-  <img src="https://wakatime.com/badge/user/rajat-khonde.svg" width="450" alt="Total time coded since Jan 1 2024" />
 </div>
 
 ---
@@ -112,6 +111,7 @@ The below is built using [this](./build-svg.ps1) PowerShell script, which runs d
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=80&section=footer&animation=fadeIn"/>
 
 </p>
+
 
 
 
