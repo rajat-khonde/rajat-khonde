@@ -1,5 +1,9 @@
-<!-- Banner Section with an Animated GIF -->
-<h1 align="center">Hi there, I'm Rajat! 👋</h1>
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=80&section=header&text=Rajat%20Khonde&fontSize=50&animation=fadeIn"/>
+</p>
+
+<h1 align="center">Cloud Automation & DevOps Engineer 🚀</h1>
+
 <p align="center">
   <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" alt="Cloud Automation & DevOps" width="600"/>
 </p>
@@ -67,7 +71,7 @@ I design and implement cloud architectures, develop serverless functions, and au
 
 ## 💬 Testimonials
 
-Here’s the recent IT Blog of E2E Automation I have worked on: [BLOG](https://blogit.michelin.io/cloud-to-cloud-automation-with-servicenow/).
+Here's the recent IT Blog of E2E Automation I have worked on: [BLOG](https://blogit.michelin.io/cloud-to-cloud-automation-with-servicenow/).
 
 
 ---
@@ -89,4 +93,20 @@ I'm always open to new opportunities and collaborations. Feel free to connect wi
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=rajat-khonde&show_icons=true&theme=great-gatsby" alt="GitHub Stats" />
+</p>
+
+---
+
+## 💫 Daily Dev Motivation
+
+The below is built using [this](./build-svg.ps1) PowerShell script, which runs daily at 4:00 AM UTC via [this](./.github/workflows/UpdateReadme.yml) GitHub Action.
+
+<p align="center">
+  <img src="./motivational-quotes.svg" alt="Daily Dev Motivation" />
+</p>
+
+---
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=80&section=footer&animation=fadeIn"/>
 </p>

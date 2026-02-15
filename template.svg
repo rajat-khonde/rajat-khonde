@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 500" width="1000" height="500">
+  <defs>
+    <style>
+      .title { font-size: 28px; font-weight: bold; fill: #ffffff; font-family: Arial, sans-serif; }
+      .quote-label { font-size: 12px; fill: #79c0ff; font-family: Arial, sans-serif; font-weight: bold; letter-spacing: 1px; }
+      .quote-text { font-size: 24px; fill: #e6edf3; font-family: Georgia, serif; font-style: italic; font-weight: 400; line-height: 1.4; }
+      .tip-label { font-size: 12px; fill: #79c0ff; font-family: Arial, sans-serif; font-weight: bold; letter-spacing: 1px; }
+      .tip-text { font-size: 20px; fill: #e6edf3; font-family: Arial, sans-serif; font-weight: 400; line-height: 1.4; }
+      .date { font-size: 12px; fill: #8b949e; font-family: Arial, sans-serif; }
+    </style>
+  </defs>
+  <rect width="1000" height="500" fill="#0d1117"/>
+  <text x="50" y="50" class="title">Daily Motivation</text>
+  <text x="50" y="75" class="date">{CURRENT_DATE} • {DAY_OF_WEEK}</text>
+  <line x1="50" y1="90" x2="950" y2="90" stroke="#30363d" stroke-width="1"/>
+  <text x="50" y="125" class="quote-label">QUOTE OF THE DAY</text>
+  <text x="60" y="165" class="quote-text">"{QUOTE}"</text>
+  <line x1="50" y1="235" x2="950" y2="235" stroke="#30363d" stroke-width="1"/>
+  <text x="50" y="270" class="tip-label">TECH TIP</text>
+  <text x="60" y="310" class="tip-text">{TECH_TIP}</text>
+  <line x1="50" y1="380" x2="950" y2="380" stroke="#30363d" stroke-width="1"/>
+  <text x="50" y="420" class="date">Keep learning, keep growing</text>
+</svg>
