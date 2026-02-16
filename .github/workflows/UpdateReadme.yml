@@ -1,0 +1,41 @@
+name: update Readme
+
+on:
+  schedule:
+    # Runs at 4:00 AM UTC every day
+    - cron: '0 4 * * *'
+  
+  # Allow manual trigger
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-motivation:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Install PowerShell
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y powershell
+
+      - name: Generate motivation stats SVG
+        env:
+          GITHUB_USERNAME: ${{ github.repository_owner }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          pwsh -File ./build-svg.ps1
+        working-directory: .
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add motivational-quotes.svg
+          git commit -m "chore: update daily motivation stats $(date '+%Y-%m-%d')" || echo "No changes to commit"
+          git push
