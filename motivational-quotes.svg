@@ -11,13 +11,13 @@
   </defs>
   <rect width="1000" height="550" fill="#0d1117"/>
   <text x="50" y="50" class="title">Daily Motivation</text>
-  <text x="50" y="75" class="date">February 17, 2026 • Tuesday</text>
+  <text x="50" y="75" class="date">February 16, 2026 • Monday</text>
   <line x1="50" y1="90" x2="950" y2="90" stroke="#30363d" stroke-width="1"/>
   <text x="50" y="140" class="quote-label">QUOTE OF THE DAY</text>
-  <text x="60" y="190" class="quote-text">"Clean code always looks like it was written by someone who cares. - Robert<tspan x="60" dy="1.3em">C. Martin</tspan>"</text>
+  <text x="60" y="190" class="quote-text">"Bad code ruins everything. Good code makes everything possible. - Unknown"</text>
   <line x1="50" y1="250" x2="950" y2="250" stroke="#30363d" stroke-width="1"/>
   <text x="50" y="300" class="tip-label">TECH TIP</text>
-  <text x="60" y="350" class="tip-text">"Break complex problems into smaller, manageable pieces."</text>
+  <text x="60" y="350" class="tip-text">"Comment your why, not your what. Code shows what, comments show<tspan x="60" dy="1.3em">why!</tspan>"</text>
   <line x1="50" y1="420" x2="950" y2="420" stroke="#30363d" stroke-width="1"/>
   <text x="50" y="450" class="date">Keep learning, keep growing</text>
 </svg>
