@@ -14,10 +14,10 @@
   <text x="50" y="75" class="date">{CURRENT_DATE} • {DAY_OF_WEEK}</text>
   <line x1="50" y1="90" x2="950" y2="90" stroke="#30363d" stroke-width="1"/>
   <text x="50" y="140" class="quote-label">QUOTE OF THE DAY</text>
-  <text x="60" y="190" class="quote-text">{QUOTE}</text>
+  <text x="60" y="190" class="quote-text">"{QUOTE}"</text>
   <line x1="50" y1="250" x2="950" y2="250" stroke="#30363d" stroke-width="1"/>
   <text x="50" y="300" class="tip-label">TECH TIP</text>
-  <text x="60" y="350" class="tip-text">{TECH_TIP}</text>
+  <text x="60" y="350" class="tip-text">"{TECH_TIP}"</text>
   <line x1="50" y1="420" x2="950" y2="420" stroke="#30363d" stroke-width="1"/>
   <text x="50" y="450" class="date">Keep learning, keep growing</text>
 </svg>

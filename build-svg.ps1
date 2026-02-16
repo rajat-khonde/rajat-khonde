@@ -34,16 +34,16 @@ function WrapText {
 }
 
 # Wrap quote and tip text - force to array
-$quoteLines = @(WrapText -text $todayQuote -maxWidth 55)
+$quoteLines = @(WrapText -text $todayQuote -maxWidth 75)
 $tipLines = @(WrapText -text $todayTip -maxWidth 65)
 
 # Build quote with tspan elements - first line with quotes, rest without
 $quoteLine0 = $quoteLines[0] -replace '&', '&amp;' -replace '<', '&lt;' -replace '>', '&gt;'
-$quoteText = '"' + $quoteLine0 + '"'
+$quoteText =  $quoteLine0 
 if ($quoteLines.Count -gt 1) {
     for ($i = 1; $i -lt $quoteLines.Count; $i++) {
         $escapedLine = $quoteLines[$i] -replace '&', '&amp;' -replace '<', '&lt;' -replace '>', '&gt;'
-        $quoteText += '<tspan x="60" dy="1.3em">"' + $escapedLine + '"</tspan>'
+        $quoteText += '<tspan x="60" dy="1.3em">' + $escapedLine + '</tspan>'
     }
 }
 
