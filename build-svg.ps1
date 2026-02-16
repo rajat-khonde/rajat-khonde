@@ -10,17 +10,55 @@ $data = Get-Content -Raw $dataPath | ConvertFrom-Json
 $quotes = $data.quotes
 $techTips = $data.techTips
 
-# Get today's date
-$today = Get-Date
-$dayOfYear = $today.DayOfYear
+# Pick random quote and tip
+$todayQuote = $quotes | Get-Random
+$todayTip = $techTips | Get-Random
+
+# Function to wrap text into multiple lines
+function WrapText {
+    param([string]$text, [int]$maxWidth = 55)
+    $words = $text -split ' '
+    $lines = @()
+    $line = ''
+    
+    foreach ($word in $words) {
+        if (($line + ' ' + $word).Length -gt $maxWidth -and $line) {
+            $lines += $line
+            $line = $word
+        } else {
+            $line = if ($line) { $line + ' ' + $word } else { $word }
+        }
+    }
+    if ($line) { $lines += $line }
+    return @($lines)  # Return as array to avoid unrolling single items
+}
+
+# Wrap quote and tip text - force to array
+$quoteLines = @(WrapText -text $todayQuote -maxWidth 55)
+$tipLines = @(WrapText -text $todayTip -maxWidth 65)
+
+# Build quote with tspan elements - first line with quotes, rest without
+$quoteLine0 = $quoteLines[0] -replace '&', '&amp;' -replace '<', '&lt;' -replace '>', '&gt;'
+$quoteText = '"' + $quoteLine0 + '"'
+if ($quoteLines.Count -gt 1) {
+    for ($i = 1; $i -lt $quoteLines.Count; $i++) {
+        $escapedLine = $quoteLines[$i] -replace '&', '&amp;' -replace '<', '&lt;' -replace '>', '&gt;'
+        $quoteText += '<tspan x="60" dy="1.3em">"' + $escapedLine + '"</tspan>'
+    }
+}
+
+# Build tip with tspan elements
+$tipText = $tipLines[0]
+if ($tipLines.Count -gt 1) {
+    for ($i = 1; $i -lt $tipLines.Count; $i++) {
+        $escapedLine = $tipLines[$i] -replace '&', '&amp;' -replace '<', '&lt;' -replace '>', '&gt;'
+        $tipText = $tipText + '<tspan x="60" dy="1.3em">' + $escapedLine + '</tspan>'
+    }
+}
+
+# Get current date info
 $currentDate = Get-Date -Format "MMMM dd, yyyy"
 $dayOfWeek = (Get-Date).DayOfWeek
-
-# Pick today's quote and tip based on day of year
-$quoteIndex = $dayOfYear % $quotes.Count
-$tipIndex = $dayOfYear % $techTips.Count
-$todayQuote = $quotes[$quoteIndex]
-$todayTip = $techTips[$tipIndex]
 
 # Load and process SVG template
 $templatePath = Join-Path $PSScriptRoot "template.svg"
@@ -32,10 +70,10 @@ if (-not (Test-Path $templatePath)) {
 $svgContent = Get-Content -Raw $templatePath
 
 # Replace placeholders in template
-$svgContent = $svgContent -replace "{QUOTE}", $todayQuote
-$svgContent = $svgContent -replace "{TECH_TIP}", $todayTip
-$svgContent = $svgContent -replace "{CURRENT_DATE}", $currentDate
-$svgContent = $svgContent -replace "{DAY_OF_WEEK}", $dayOfWeek
+$svgContent = $svgContent.Replace("{QUOTE}", $quoteText)
+$svgContent = $svgContent.Replace("{TECH_TIP}", $tipText)
+$svgContent = $svgContent.Replace("{CURRENT_DATE}", $currentDate)
+$svgContent = $svgContent.Replace("{DAY_OF_WEEK}", $dayOfWeek)
 
 # Save the SVG
 $outputPath = Join-Path $PSScriptRoot "motivational-quotes.svg"

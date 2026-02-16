@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 500" width="1000" height="500">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 550" width="1000" height="550">
   <defs>
     <style>
       .title { font-size: 28px; font-weight: bold; fill: #ffffff; font-family: Arial, sans-serif; }
@@ -9,16 +9,16 @@
       .date { font-size: 12px; fill: #8b949e; font-family: Arial, sans-serif; }
     </style>
   </defs>
-  <rect width="1000" height="500" fill="#0d1117"/>
+  <rect width="1000" height="550" fill="#0d1117"/>
   <text x="50" y="50" class="title">Daily Motivation</text>
-  <text x="50" y="75" class="date">February 16, 2026 • Monday</text>
+  <text x="50" y="75" class="date">February 17, 2026 • Tuesday</text>
   <line x1="50" y1="90" x2="950" y2="90" stroke="#30363d" stroke-width="1"/>
-  <text x="50" y="125" class="quote-label">QUOTE OF THE DAY</text>
-  <text x="60" y="165" class="quote-text">"Code is poetry written in a language computers understand. - Unknown"</text>
-  <line x1="50" y1="235" x2="950" y2="235" stroke="#30363d" stroke-width="1"/>
-  <text x="50" y="270" class="tip-label">TECH TIP</text>
-  <text x="60" y="310" class="tip-text">Performance matters, but readable code matters more!</text>
-  <line x1="50" y1="380" x2="950" y2="380" stroke="#30363d" stroke-width="1"/>
-  <text x="50" y="420" class="date">Keep learning, keep growing</text>
+  <text x="50" y="140" class="quote-label">QUOTE OF THE DAY</text>
+  <text x="60" y="190" class="quote-text">"Make it work, make it right, make it fast. - Kent Beck"</text>
+  <line x1="50" y1="250" x2="950" y2="250" stroke="#30363d" stroke-width="1"/>
+  <text x="50" y="300" class="tip-label">TECH TIP</text>
+  <text x="60" y="350" class="tip-text">Keep functions small and focused on one thing!</text>
+  <line x1="50" y1="420" x2="950" y2="420" stroke="#30363d" stroke-width="1"/>
+  <text x="50" y="450" class="date">Keep learning, keep growing</text>
 </svg>
 
