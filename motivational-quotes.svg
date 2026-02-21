@@ -11,10 +11,10 @@
   </defs>
   <rect width="1000" height="550" fill="#0d1117"/>
   <text x="50" y="50" class="title">Daily Motivation</text>
-  <text x="50" y="75" class="date">February 20, 2026 • Friday</text>
+  <text x="50" y="75" class="date">February 21, 2026 • Saturday</text>
   <line x1="50" y1="90" x2="950" y2="90" stroke="#30363d" stroke-width="1"/>
   <text x="50" y="140" class="quote-label">QUOTE OF THE DAY</text>
-  <text x="60" y="190" class="quote-text">"The only way to do great work is to love what you do. - Steve Jobs"</text>
+  <text x="60" y="190" class="quote-text">"The real problem is that programmers have spent far too much time worrying<tspan x="60" dy="1.3em">about efficiency. - Donald Knuth</tspan>"</text>
   <line x1="50" y1="250" x2="950" y2="250" stroke="#30363d" stroke-width="1"/>
   <text x="50" y="300" class="tip-label">TECH TIP</text>
   <text x="60" y="350" class="tip-text">"Always handle edge cases and errors gracefully!"</text>
