@@ -28,6 +28,17 @@ I work with a variety of technologies and tools, including:
 - **PowerShell**
 - **Python**
 - **Bash**
+- **JavaScript/TypeScript**
+
+### Frontend Development
+- **React**
+- **Responsive UI Design**
+- **Component Development**
+
+### Containerization & Orchestration
+- **Docker**
+- **Kubernetes**
+- **Container Deployments**
 
 ### Serverless & Automation
 - **Azure Functions**
@@ -35,11 +46,16 @@ I work with a variety of technologies and tools, including:
 - **Power Automate**
 - **Microsoft 365 Automation**
 
+### AI & Protocol Development
+- **MCP (Model Context Protocol)**
+- **Strands Agent**
+- **FAST MCP Framework**
+- **Agentic AI Solutions**
+
 ### CI/CD & DevOps Tools
 - **Jenkins**
 - **GitLab**
 - **Bitbucket**
-- **Kubernetes**
 - **JFrog**
 - **APIGEE**
 
@@ -51,6 +67,9 @@ I work with a variety of technologies and tools, including:
   <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white" alt="Bash">
   <img src="https://img.shields.io/badge/-Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white" alt="Jenkins">
   <img src="https://img.shields.io/badge/-GitLab-E24329?style=for-the-badge&logo=gitlab&logoColor=white" alt="GitLab">
+  <img src="https://img.shields.io/badge/-Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker">
+  <img src="https://img.shields.io/badge/-Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" alt="Kubernetes">
+  <img src="https://img.shields.io/badge/-React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React">
 </p>
 
 ---
@@ -62,6 +81,12 @@ I design and implement cloud architectures, develop serverless functions, and au
 - **Automation:** Utilizing PowerShell and Python to automate repetitive tasks and streamline operations.
 - **CI/CD Pipelines:** Building robust pipelines with tools like Jenkins, GitLab, Bitbucket and Kubernetes.
 - **Integration & Security:** Implementing solutions using APIGEE to secure and integrate diverse systems also automating scripts for various security bug fixes or new implementations.
+
+## Specialized Expertise
+
+- **MCP Server Development:** Designing and implementing Model Context Protocol (MCP) servers for Office 365 and Entra ID integration, leveraging Strands Agent and FAST MCP frameworks to build intelligent Agentic AI solutions.
+- **Container Orchestration & Kubernetes:** Architecting and deploying containerized applications to Kubernetes clusters using Docker, with hands-on experience deploying applications like BentoPDF at scale.
+- **Frontend Development:** Building responsive and interactive user interfaces using React, creating seamless user experiences for enterprise applications.
 
 <p align="center">
   <img src="https://media.giphy.com/media/RbDKaczqWovIugyJmW/giphy.gif" alt="Automation in Action" width="500"/>
